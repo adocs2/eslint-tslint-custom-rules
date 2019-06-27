@@ -39,7 +39,7 @@ If there are other links that describe the issue this rule addresses, please inc
 
 Se o pai dele for um bloco e o console não é o único elemento do bloco
 
-https://astexplorer.net/#/gist/ab12d412ad08ea68f8dde21558721264/c002e9ce5c7503de35a5ccfe2e5361674f79e185
+https://astexplorer.net/#/gist/ab12d412ad08ea68f8dde21558721264/0232a3db7788347e7237ee20504dc93d269681b6
 
 ## comparação nos ifs
 

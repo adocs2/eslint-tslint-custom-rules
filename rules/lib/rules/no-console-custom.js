@@ -38,7 +38,7 @@ module.exports = {
       CallExpression(node) {
         const callee = node.callee;
         if (
-          callee.name !== "alert" &&
+          callee.type === "MemberExpression" &&
           callee.object.name === "console" &&
           (node.parent.parent.type === "BlockStatement" &&
             node.parent.parent.body.length > 1)
