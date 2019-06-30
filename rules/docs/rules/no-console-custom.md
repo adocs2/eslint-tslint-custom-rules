@@ -41,10 +41,10 @@ Se o pai dele for um bloco e o console não é o único elemento do bloco
 
 https://astexplorer.net/#/gist/ab12d412ad08ea68f8dde21558721264/0232a3db7788347e7237ee20504dc93d269681b6
 
-## comparação nos ifs
+## triple equals
 
 https://astexplorer.net/#/gist/b23c0f35c0800ab902a241093b7892c4/ba769b6b587a79d0d6f35fa5c6d63d02a0bbfb36
 
-## comparação com true or false
+## simplificando expressões binárias
 
 https://astexplorer.net/#/gist/60e8dc9cb4d46122c43b92f77f541896/fd8c8d5f7ad16bf66f5f6ea8ecd6a37619e993ce

@@ -22,18 +22,6 @@ module.exports = {
   },
 
   create: function(context) {
-    // variables should be defined here
-
-    //----------------------------------------------------------------------
-    // Helpers
-    //----------------------------------------------------------------------
-
-    // any helper functions should go here or else delete this section
-
-    //----------------------------------------------------------------------
-    // Public
-    //----------------------------------------------------------------------
-
     return {
       BinaryExpression(node) {
         if (node.operator === "===" || node.operator === "==") {
@@ -41,7 +29,9 @@ module.exports = {
             node.right.raw === "true" ||
             node.right.raw === "false" ||
             node.right.raw === "null" ||
-            node.right.name === "undefined"
+            node.right.name === "undefined" ||
+            node.right.raw === "''" ||
+            node.right.name === "NaN"
           ) {
             context.report({
               node: node,

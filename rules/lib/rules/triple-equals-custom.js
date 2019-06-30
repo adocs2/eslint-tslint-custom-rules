@@ -22,18 +22,6 @@ module.exports = {
   },
 
   create: function(context) {
-    // variables should be defined here
-
-    //----------------------------------------------------------------------
-    // Helpers
-    //----------------------------------------------------------------------
-
-    // any helper functions should go here or else delete this section
-
-    //----------------------------------------------------------------------
-    // Public
-    //----------------------------------------------------------------------
-
     return {
       BinaryExpression(node) {
         if (node.parent.type === "IfStatement") {
