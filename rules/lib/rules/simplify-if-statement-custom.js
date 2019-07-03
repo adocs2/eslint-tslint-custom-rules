@@ -1,5 +1,5 @@
 /**
- * @fileoverview Rule for simplify if statement if cam be simplified to a single return statement
+ * @fileoverview Rule for simplify if statement if can be simplified to a single return statement
  * @author simplify-if-statement-custom
  */
 "use strict";
@@ -12,7 +12,7 @@ module.exports = {
   meta: {
     docs: {
       description:
-        "Rule for simplify if statement if cam be simplified to a single return statement",
+        "Rule for simplify if statement if can be simplified to a single return statement",
       category: "Fill me in",
       recommended: false
     },
@@ -121,7 +121,7 @@ module.exports = {
                       node.body[node.body.length - 2].range[0],
                       node.body[node.body.length - 1].range[1]
                     ],
-                    "return " + getSource(node.body[node.body.length - 2].test)
+                    "return " + "(" + context.getSource(node.body[node.body.length - 2].test) + ")"
                   );
                 }
               });
@@ -141,7 +141,7 @@ module.exports = {
                     ],
                     "return " +
                       "!" +
-                      getSource(node.body[node.body.length - 2].test)
+                      "(" + context.getSource(node.body[node.body.length - 2].test) + ")"
                   );
                 }
               });

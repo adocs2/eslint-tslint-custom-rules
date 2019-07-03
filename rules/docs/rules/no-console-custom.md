@@ -51,7 +51,4 @@ https://astexplorer.net/#/gist/60e8dc9cb4d46122c43b92f77f541896/fd8c8d5f7ad16bf6
 
 ## simplificando ifs que podem ser apenas um retorno
 
-    if com !== e retorno false => retorno com ===
-    if com === e retorno false => retorno com !==
-    if com === e retorno true => retorno com ===
-    if com !== e retorn true => retorno com !==
+  https://astexplorer.net/#/gist/fb47ca59f2ea99ab37d30c98f8e569d5/6022f8b6191fac8980c791cac4decc36ca06a5b3
