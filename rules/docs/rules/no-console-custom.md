@@ -48,3 +48,10 @@ https://astexplorer.net/#/gist/b23c0f35c0800ab902a241093b7892c4/ba769b6b587a79d0
 ## simplificando expressões binárias
 
 https://astexplorer.net/#/gist/60e8dc9cb4d46122c43b92f77f541896/fd8c8d5f7ad16bf66f5f6ea8ecd6a37619e993ce
+
+## simplificando ifs que podem ser apenas um retorno
+
+    if com !== e retorno false => retorno com ===
+    if com === e retorno false => retorno com !==
+    if com === e retorno true => retorno com ===
+    if com !== e retorn true => retorno com !==
