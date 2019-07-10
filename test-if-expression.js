@@ -1,47 +1,84 @@
 function triple(x) {
-	return x === false
+	if(x === false){
+
+		return true
+	}
+	return false
 }
 
 function invertetriple(x) {
-	return x !== false
+	if(x === false){
+		return false
+	}
+	return true
 }
 
 function invertedif(x) {
-	return x === false
+	if(x !== false){
+		return false
+	}
+	return true
 }
 
 () => {
-	return x === true
+	if(x === true){
+		return true
+	}
+	return false
 }
 
 function logicalequals() {
-	return (x === false || x === null || x === undefined)
+	if(x === false || x === null || x === undefined ){
+		return true
+	}
+	return false
 }
 
 function logicaldif() {
-	return !(x === false || x === null || x === undefined)
+	if(x === false || x === null || x === undefined ){
+		return false
+	}
+	return true
 }
 
 function bangbangtrue(x) {
-    return !!x
+    if(!!x){
+        return true
+    }
+    return false
 }
 
 function bangbangfalse(x) {
-    return !x
+    if(!!x){
+        return false
+    }
+    return true
 }
 
 function negatetrue(x) {
-    return !x
+    if(!x){
+        return true
+    }
+    return false
 }
 
 function negatefalse(x) {
-    return x
+    if(!x){
+        return false
+    }
+    return true
 }
 
 function idetifiertrue(x) {
-    return !!x
+    if(x){
+        return true
+    }
+    return false
 }
 
 function identifierfalse(x) {
-    return !x
+    if(x){
+        return false
+    }
+    return true
 }

@@ -47,8 +47,12 @@ https://astexplorer.net/#/gist/b23c0f35c0800ab902a241093b7892c4/ba769b6b587a79d0
 
 ## simplificando expressões binárias
 
-https://astexplorer.net/#/gist/60e8dc9cb4d46122c43b92f77f541896/fd8c8d5f7ad16bf66f5f6ea8ecd6a37619e993ce
+https://astexplorer.net/#/gist/60e8dc9cb4d46122c43b92f77f541896/30dfe4473bd9e42694b19d263f55bef5bd7ea650
 
 ## simplificando ifs que podem ser apenas um retorno
 
 https://astexplorer.net/#/gist/fb47ca59f2ea99ab37d30c98f8e569d5/7326063a47cfd46d5cd9fadf0d34b5b7a7ea8a47
+
+## simplificando metodos que retornam variavel local
+
+https://astexplorer.net/#/gist/ebe267e0fab30c359654d13bfcc22c52/7ee314be7dd2656cd1a96b6fde4be12edf5d7abe
