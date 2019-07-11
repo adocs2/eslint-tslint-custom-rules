@@ -41,3 +41,39 @@ function computeDurationInMilliseconds() {
   let duration = ((hours * 60 + minutes) * 60 + seconds) * 1000;
   return duration;
 }
+
+function foo(x) {
+  if (x > 9) {
+    if (x === 10) {
+      if (x === 10) {
+        x + 1;
+      }
+    }
+  }
+}
+
+function foo(x) {
+  if (x > 9) {
+    if (x === 10) {
+      x = 9 + 1;
+      let y = "alguma coisa";
+      console.log();
+      x.map(function () {
+        if(x === 10){
+          if(x > 15) {
+            x = x +10
+          }
+        }
+      })
+    }
+  }
+}
+
+function foo(x) {
+  if (x > 9) {
+    if (x === 10) {
+      x = 9 + 1;
+      return x;
+    }
+  }
+}
