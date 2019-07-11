@@ -56,3 +56,7 @@ https://astexplorer.net/#/gist/fb47ca59f2ea99ab37d30c98f8e569d5/7326063a47cfd46d
 ## simplificando metodos que retornam variavel local
 
 https://astexplorer.net/#/gist/ebe267e0fab30c359654d13bfcc22c52/7ee314be7dd2656cd1a96b6fde4be12edf5d7abe
+
+## simplificando if encadeados
+
+https://astexplorer.net/#/gist/60c5ae242784ecdd11935d98114b03c2/25c888cbe968b8c17ad80b91f7b3e1c92d591665
