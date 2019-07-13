@@ -29,7 +29,8 @@ module.exports = {
           node.body.length >= 2 &&
           node.body[node.body.length - 1].type === "ReturnStatement" &&
           node.body[node.body.length - 2].type === "IfStatement" &&
-          node.body[node.body.length - 2].consequent.body.length === 1
+          node.body[node.body.length - 2].consequent.body.length === 1 &&
+          node.body[node.body.length - 2].consequent.body[0].type === "ReturnStatement"
         ) {
           if (node.body[node.body.length - 2].test.type === "Identifier") {
             if (node.body[node.body.length - 2].consequent.body[0].argument.raw === "true") {

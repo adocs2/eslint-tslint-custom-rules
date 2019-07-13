@@ -77,3 +77,9 @@ function foo(x) {
     }
   }
 }
+
+function abrirPastaMinhasDistribuicoes() {
+  if(window.top.document.getElementById("mesa:arvoreInstrucaoMinhasDistribuicoes:0:2::idLnkNomearvoreInstrucaoMinhasDistribuicoes") == undefined) {
+      window.top.document.getElementById("mesa:arvoreInstrucaoMinhasDistribuicoes:0::treeNodearvoreInstrucaoMinhasDistribuicoes:handle").click();
+  }
+}

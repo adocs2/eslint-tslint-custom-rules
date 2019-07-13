@@ -32,7 +32,7 @@ module.exports = {
               fix: function(fixer) {
                 return fixer.replaceText(
                   node,
-                  node.left.name + " === " + node.right.raw
+                  context.getSource(node.left) + " === " + node.right.raw
                 );
               }
             });
@@ -45,7 +45,7 @@ module.exports = {
               fix: function(fixer) {
                 return fixer.replaceText(
                   node,
-                  node.left.name + " === " + node.right.name
+                  context.getSource(node.left) + " === " + node.right.name
                 );
               }
             });
@@ -58,7 +58,7 @@ module.exports = {
               fix: function(fixer) {
                 return fixer.replaceText(
                   node,
-                  node.left.name + " !== " + node.right.raw
+                  context.getSource(node.left) + " !== " + node.right.raw
                 );
               }
             });
@@ -71,7 +71,7 @@ module.exports = {
               fix: function(fixer) {
                 return fixer.replaceText(
                   node,
-                  node.left.name + " !== " + node.right.name
+                  context.getSource(node.left) + " !== " + node.right.name
                 );
               }
             });
